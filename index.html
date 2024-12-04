@@ -5,115 +5,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <h1>Sobre Mi</h1>
-    <h2>Introducción</h2>
-    <p>Hola, soy Ssaylem Murillo. Bienvenido a mi página web. Aquí encontrarás información sobre mí, mis intereses y mis
-        horarios.</p>
-    <h2>Hoja de Vida</h2>
-    <p>Soy una persona apasionada por la tecnología, la música y la creación de contenido creativo. Me encanta aprender
-        cosas nuevas y compartir conocimientos con los demás.</p>
+<body class="body">
+    <header>
+        <h1 id="titulo-principal">Sobre Mi</h1>
+    </header>
 
-    <h2>Mi Foto</h2>
-    <img src="assets/foto.jpg" alt="Mi foto" style="width:200px;">
-    <h2>Mis Redes Sociales</h2>
-    <ul>
-        <li><a href="https://www.facebook.com/profile.php?id=61568260616267" target="_blank">Facebook</a></li>
-        <li><a href="https://x.com/SSAYKO_SSAY" target="_blank">Twitter</a></li>
-        <li><a href="https://www.instagram.com/maxipan_pizzas/?hl=es" target="_blank">Instagram</a></li>
-    </ul>
+    <section class="seccion-introduccion">
+        <h2 class="subtitulo">Introducción</h2>
+        <p class="texto-intro">Hola, soy Ssaylem Murillo. Bienvenido a mi página web. Aquí encontrarás información sobre
+            mí, mis intereses y mis horarios.</p>
+    </section>
 
-    <h2>Mis Pasatiempos</h2>
-    <ul>
-        <li>Leer libros</li>
-        <li>Escuchar música</li>
-        <li>Hacer deporte</li>
-    </ul>
-    <h2>Tareas Pendientes</h2>
-    <ol>
-        <li>Estudiar programación</li>
-        <li>Organizar mi habitación</li>
-        <li>Hacer ejercicio</li>
-    </ol>
+    <section class="seccion-hoja-vida">
+        <h2 class="subtitulo">Hoja de Vida</h2>
+        <p class="texto">Soy una persona apasionada por la tecnología, la música y la creación de contenido creativo. Me
+            encanta aprender cosas nuevas y compartir conocimientos con los demás.</p>
+    </section>
 
-    <h2>Mi Horario</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Día</th>
-                <th>Actividad</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lunes</td>
-                <td>Estudiar programación</td>
-            </tr>
-            <tr>
-                <td>Martes</td>
-                <td>Hacer ejercicio</td>
-            </tr>
-            <tr>
-                <td>Miércoles</td>
-                <td>Organizar mi habitación</td>
-            </tr>
-            <tr>
-                <td>Jueves</td>
-                <td>Estudiar/Trabajar</td>
-            </tr>
-            <tr>
-                <td>Viernes</td>
-                <td>Estudiar/Trabajar</td>
-            </tr>
-            <tr>
-                <td>Sabado</td>
-                <td>Estudiar/Trabajar</td>
-            </tr>
-            <tr>
-                <td>Domingo</td>
-                <td>VALORANT</td>
-            </tr>
-        </tbody>
-    </table>
+    <section class="seccion-foto">
+        <h2 class="subtitulo">Mi Foto</h2>
+        <img src="assets/foo.jpg" alt="Mi foto" class="mi-foto">
+    </section>
 
-    <h2>Contacto</h2>
-    <form action="#" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+    <section class="seccion-redes-sociales">
+        <h2 class="subtitulo">Mis Redes Sociales</h2>
+        <ul class="lista-redes">
+            <li><a href="https://www.facebook.com/profile.php?id=61568260616267" target="_blank"
+                    class="link-redes">Facebook</a></li>
+            <li><a href="https://x.com/SSAYKO_SSAY" target="_blank" class="link-redes">Twitter</a></li>
+            <li><a href="https://www.instagram.com/maxipan_pizzas/?hl=es" target="_blank"
+                    class="link-redes">Instagram</a></li>
+        </ul>
+    </section>
 
-        <label for="motivo">Motivo:</label>
-        <input type="text" id="motivo" name="motivo" required><br><br>
+    <section class="seccion-pasatiempos">
+        <h2 class="subtitulo">Mis Pasatiempos</h2>
+        <ul class="lista-pasatiempos">
+            <li>Leer libros</li>
+            <li>Escuchar música</li>
+            <li>Hacer deporte</li>
+        </ul>
+    </section>
 
-        <label for="correo">Correo Electrónico:</label>
-        <input type="email" id="correo" name="correo" required><br><br>
+    <section class="seccion-horario">
+        <h2 class="subtitulo">Mi Horario</h2>
+        <table class="tabla-horario">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Actividad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Estudiar programación</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>Hacer ejercicio</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Organizar mi habitación</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>Estudiar/Trabajar</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>Estudiar/Trabajar</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>Estudiar/Trabajar</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>VALORANT</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-        <button type="submit">Enviar</button>
-    </form>
+    <section class="seccion-contacto">
+        <h2 class="subtitulo">Contacto</h2>
+        <form action="#" method="post" class="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
 
+            <label for="motivo">Motivo:</label>
+            <input type="text" id="motivo" name="motivo" required><br><br>
 
-    <h2>Sugerencias</h2>
-    <form action="#" method="post">
-        <label for="nombre">Tu Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required><br><br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required><br><br>
 
-        <label for="sugerencia">Tu Sugerencia:</label>
-        <textarea id="sugerencia" name="sugerencia" rows="4" cols="50" placeholder="Escribe aquí tu sugerencia..."
-            required></textarea><br><br>
+            <button type="submit" class="boton-enviar">Enviar</button>
+        </form>
+    </section>
 
-        <label for="correo">Correo Electrónico (Opcional):</label>
-        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com"><br><br>
+    <section class="seccion-sugerencias">
+        <h2 class="subtitulo">Sugerencias</h2>
+        <form action="#" method="post" class="formulario-sugerencias">
+            <label for="nombre-sugerencia">Tu Nombre:</label>
+            <input type="text" id="nombre-sugerencia" name="nombre" placeholder="Escribe tu nombre completo"
+                required><br><br>
 
-        <label for="prioridad">Prioridad:</label>
-        <select id="prioridad" name="prioridad">
-            <option value="alta">Alta</option>
-            <option value="media">Media</option>
-            <option value="baja">Baja</option>
-        </select><br><br>
+            <label for="sugerencia">Tu Sugerencia:</label>
+            <textarea id="sugerencia" name="sugerencia" rows="4" cols="50" placeholder="Escribe aquí tu sugerencia..."
+                required></textarea><br><br>
 
-        <button type="submit">Enviar Sugerencia</button>
-    </form>
+            <label for="correo-sugerencia">Correo Electrónico (Opcional):</label>
+            <input type="email" id="correo-sugerencia" name="correo" placeholder="ejemplo@correo.com"><br><br>
+
+            <label for="prioridad">Prioridad:</label>
+            <select id="prioridad" name="prioridad">
+                <option value="alta">Alta</option>
+                <option value="media">Media</option>
+                <option value="baja">Baja</option>
+            </select><br><br>
+
+            <button type="submit" class="boton-enviar-sugerencia">Enviar Sugerencia</button>
+        </form>
+    </section>
+
 </body>
 
 </html>

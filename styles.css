@@ -1,0 +1,132 @@
+/* Estilos generales */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Título principal */
+#titulo-principal {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* Subtítulos */
+.subtitulo {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-top: 20px;
+}
+
+/* Texto de introducción */
+.texto-intro {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+/* Estilo para la imagen */
+.mi-foto {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+/* Redes sociales */
+.lista-redes {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.lista-redes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.link-redes {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Tabla de horario */
+.tabla-horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-horario th,
+.tabla-horario td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-horario th {
+    background-color: #f4f4f4;
+}
+
+/* Botones */
+.boton-enviar {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boton-enviar:hover {
+    background-color: #27ae60;
+}
+
+/* Estilo para la sección de sugerencias */
+.seccion-sugerencias {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+/* Formulario de sugerencias */
+.formulario-sugerencias label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.formulario-sugerencias input[type="text"],
+.formulario-sugerencias input[type="email"],
+.formulario-sugerencias textarea,
+.formulario-sugerencias select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Botón de envío */
+.boton-enviar-sugerencia {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.boton-enviar-sugerencia:hover {
+    background-color: #d35400;
+}
